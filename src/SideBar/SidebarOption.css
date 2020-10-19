@@ -26,3 +26,7 @@
     font-size: 20px;
     margin-right: 20px;
 }
+/* We are giving the active sidebar a different color */
+.sidebarOption--active{
+    color: var(--twitter-color);
+}
