@@ -1,0 +1,28 @@
+/* .sidebarOption means inside sidebarOption */
+
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*.sidebarOption:hover means inside sidebarOption at hover property */ 
+.sidebarOption:hover{ 
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    transition:color 100ms ease-out;
+
+}
+/* Here Material UI gives us the option to edit the Icons and we can do this by changing MuiSvgIcon-root*/
+/* .sidebarOption > .MuiSvgIcon-root means inside sidebarOption if MuiSvgIcon found then apply these CSS*/
+.sidebarOption > .MuiSvgIcon-root {  
+    padding: 20px;
+}
+
+/* .sidebarOption > h2 means inside sidebarOption if found h2, apply below CSS*/
+.sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
