@@ -1,0 +1,37 @@
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom:  10px;
+}
+
+.postAvatar{
+    padding: 20px;
+}
+
+.postBody{
+    flex: 1;
+    padding:10px
+}
+
+.postBody > img {
+    border-radius: 20px;
+    
+}
+
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.postBadge{
+    font-size: 14px !important;
+    color: var(--twitter-color);
+}
+
+.postTwitterHandle{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
