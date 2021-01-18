@@ -12,23 +12,21 @@ function Widget() {
     <div className="widgets">
       <div className="widgetsInput">
         <SearchIcon className="widgetsSearchIcon" />
-        <input placeholder="Search" type="text"/>
+        <input placeholder="Search" type="text" />
       </div>
       <div className="widgetContainer">
-          <h2>
-              What's happening
-          </h2>
-          <TwitterTweetEmbed tweetId={"1350480432215691265"} />
-          <TwitterTimelineEmbed
+        <h2>What's happening</h2>
+        <TwitterTweetEmbed tweetId={"1350480432215691265"} />
+        <TwitterTimelineEmbed
           sourceType="profile"
           screenName="mithilesh_ti"
           options={{ height: 400 }}
-        />  
-         <TwitterShareButton
+        />
+        <TwitterShareButton
           url={"https://m1-key.github.io"}
           options={{ text: "#reactjs is awesome", via: "mithilesh_ti" }}
         />
-              </div>
+      </div>
     </div>
   );
 }
