@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Avatar } from "@material-ui/core";
-import VerifiedUser from '@material-ui/icons/CheckCircle';
+import VerifiedUser from "@material-ui/icons/CheckCircle";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
@@ -24,7 +24,7 @@ function Post(props) {
           <div className="postHeaderText">
             <h3>
               Mithilesh{" "}
-              <span className = "postTwitterHandle">
+              <span className="postTwitterHandle">
                 <VerifiedUser className="postBadge" /> @m1key
               </span>
             </h3>
@@ -33,7 +33,10 @@ function Post(props) {
             <p>We are the champions</p>
           </div>
         </div>
-        <img src="https://raw.githubusercontent.com/m1-key/Media/main/linear.gif" alt = "Nothing"/>
+        <img
+          src="https://raw.githubusercontent.com/m1-key/Media/main/linear.gif"
+          alt="Nothing"
+        />
         <div className="postFooter">
           <ChatBubbleOutlineIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
